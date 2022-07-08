@@ -22,3 +22,11 @@ for (const key in employee) {
         
     }
 }
+//Iterate the JSON Object
+
+let department={
+    "depId":"EEE1001",
+    "DepName":"Electrical And Electronic Engineeringg",
+    "CollegeName":"SITAMS"
+}
+console.log(department.DepName,department.CollegeName,department.depId);
